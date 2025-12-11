@@ -1,0 +1,17 @@
+<div class="menu-wrapper">
+  <nav class="main-nav">
+
+    <button class="burger" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="menu" [class.open]="menuOpen">
+      <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Inicio</a></li>
+      <li><a routerLink="/cuestionario" routerLinkActive="active">Cuestionario</a></li>
+      <li><a routerLink="/contacto" routerLinkActive="active">Contacto</a></li>
+    </ul>
+
+  </nav>
+</div>

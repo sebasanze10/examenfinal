@@ -1,0 +1,13 @@
+<main class="content" [class.dark-mode]="darkMode">
+  <h1>{{ title }}</h1>
+
+  <div *ngFor="let obj of objetos" class="objeto">
+    <h3>({{ obj.colegio }})</h3>
+
+    <img [src]="obj.imagen" alt="Imagen de la materia" width="200">
+    
+    <p>Materia: {{ obj.materia }} | Curso: {{ obj.curso }}</p>
+    <p>Profesor: {{ obj.profesor }}</p>
+    <p>Estudiantes: {{ obj.cantidadEstudiantes }}</p>
+  </div>
+</main>

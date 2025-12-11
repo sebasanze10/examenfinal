@@ -1,0 +1,36 @@
+{
+  "colegio": [
+    {
+      "cantidadEstudiantes": 25,
+      "colegio": "Colegio Nacional Bolivariano",
+      "curso": "Primero",
+      "imagen": "https://images.unsplash.com/photo-1581092795367-7beff0f7a4a0?fit=crop&w=600&q=80",
+      "materia": "Matemáticas I",
+      "profesor": "Juan Pérez"
+    },
+    {
+      "cantidadEstudiantes": 30,
+      "colegio": "Colegio Nacional Bolivariano",
+      "curso": "Segundo",
+      "imagen": "https://images.unsplash.com/photo-1596496054824-2f8b4a1db86e?fit=crop&w=600&q=80",
+      "materia": "Física II",
+      "profesor": "María López"
+    },
+    {
+      "cantidadEstudiantes": 20,
+      "colegio": "Instituto Técnico Simón Bolívar",
+      "curso": "Tercero",
+      "imagen": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?fit=crop&w=600&q=80",
+      "materia": "Historia Universal",
+      "profesor": "Carlos Gómez"
+    },
+    {
+      "cantidadEstudiantes": 22,
+      "colegio": "Colegio Moderno San José",
+      "curso": "Segundo",
+      "imagen": "https://images.unsplash.com/photo-1581091215361-2f2ff0f0f1c6?fit=crop&w=600&q=80",
+      "materia": "Química Orgánica",
+      "profesor": "Ana Rodríguez"
+    }
+  ]
+}
